@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: px;
+    box-sizing: border-box;
+}
+
+.wepper {
+    height: 450px;
+    width: 25%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+   text-align: center;
+}
+
+.imge {
+    height: 200px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: inline-end;
+    transform: translateY(-40px) translateX(-15px);
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 10px;
+}
+
+.text {
+    margin-top: 25px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.text>p {
+    font-size: 0.7rem;
+    color: grey;
+
+}
+
+.text>.button2 {
+    background-color: rgb(112 179 177);
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.button1 {
+    background-color: rgb(211 177 154);
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.imge>img:hover {
+    scale: 1.1;
+    transition: all 1s ease-in-out;
+}
